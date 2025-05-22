@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+}
+
+div#mon_mars {
+    display: flex;
+    flex-direction: column;
+}
