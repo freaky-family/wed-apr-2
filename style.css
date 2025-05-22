@@ -2,7 +2,7 @@ body {
     text-align: center;
 }
 
-div#mon_mars {
+div#wed_aprs {
     display: flex;
     flex-direction: column;
 }
