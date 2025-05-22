@@ -9,8 +9,8 @@ function get_next_wed_apr(x) {
     let date = current_date;
 
     x += last_wed_apr;
-    while (date.getDay() !== 1) {
-        date = new Date(current_date.getFullYear() + x, 4, 2);
+    while (date.getDay() !== 3) {
+        date = new Date(current_date.getFullYear() + x, 3, 2);
         x++;
     }
     last_wed_apr = x;
